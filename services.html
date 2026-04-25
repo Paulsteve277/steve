@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>service section</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family:sans-serif;
+            box-sizing: border-box;
+        }
+        .container{
+            min-height: 100vh;
+            width: 100%;
+            background-color: #191a2b;
+        }
+        .service-wrapper{
+            padding: 5% 8%;
+
+         }
+         .service{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+         }
+         h1{
+            color: white;
+            font-size: 5rem;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: transparent;
+            letter-spacing: 4px;
+            background-color: rgba(4, 52,83);
+            background: linear-gradient(8deg rgba(4, 52 , 83,1) 0%,rgb(0, 230, 173, 1) 41%, rgb(41, 17, 45, 1) 100%)
+         }
+         h1:after{
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 10px;
+            height: 8px;
+            width: 80%;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.05);
+         }
+
+         h1 span{
+            position: absolute;
+            top: 100%;
+            left: 10%;
+            height: 8px;
+            width: 8px;
+            border-radius: 50%;
+            background-color: aqua;
+         }
+
+         .cards{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 30px;
+            margin-top: 80px;
+         }
+
+         .card{
+            height: 330px;
+            width: 370px;
+            background-color: rgb(4, 52,83);
+            padding: 3% 8%;
+            border: 0.2 solid rgb(114, 226, 174, 0.2);
+            border-radius: 8px;
+            transition: .6s;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+         }
+         .card h2{
+            color: #fff;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 1px;
+         }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="service-wrapper">
+            <div class="service">
+                <h1>Our Services <span></span></h1>
+                <div class="cards">
+                    <div class="card">
+                        <i class="fa-brands fa-chromecast"></i>
+                        <h2>Business Strategy</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                             Necessitatibus, ex. Sit iure possimus quos. Quasi,
+                             sapiente quam illum consequatur dolor suscipit aut itaque doloremque?
+                              Ullam voluptatum dicta eveniet odio modi.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <h2>Website Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Consequatur necessitatibus assumenda provident eius placeat eos error,
+                             aperiam ab dignissimos saepe quo sequi vitae dicta non autem quibusdam quasi voluptatum. Facere!</p>
+
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <h2>Marketing and Reporting</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo esse, quis quaerat,
+                             quam repudiandae officiis cum saepe libero
+                              suscipit dolorum nam aliquam veniam voluptatum sapiente blanditiis rerum alias! Quaerat, labore!</p>
+
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-desktop"></i>
+                        <h2>Mobile Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vero aut laudantium cum expedita, quis nesciunt,
+                             sapiente ipsum quos nemo omnis debitis esse voluptatum ratione odio aspernatur labore, dicta nisi.</p>
+                        
+
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-camera"></i>
+                        <h2>Graphic Design</h2>
+                        <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit,
+                             illo perspiciatis velit dolorem recusandae qui similique accusamus
+                             delectus fuga doloremque libero dolores, eius animi excepturi nihil. Sunt assumenda odit sed!</P>
+
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-gear"></i>
+                        <h2>Others</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum fugiat tempora inventore ipsum soluta odio animi blanditiis?
+                         Cum optio veniam eos debitis. Laudantium facilis, minima a at aperiam in fuga!</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </section>
+</body>
+</html>
